@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document for Cafe.html */
+
+@font-face {
+    font-family: 'DroidSerifRegular';
+    src: url('../webfonts/droidserifregular/DroidSerif-webfont.eot');
+    src: url('webfonts/droidserifregular/DroidSerif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/droidserifregular/DroidSerif-webfont.woff') format('woff'),
+         url('webfonts/droidserifregular/DroidSerif-webfont.ttf') format('truetype'),
+         url('webfonts/droidserifregular/DroidSerif-webfont.svg#droidserifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+body {
+	
+	font-family: arial, verdana, sans-serif;
+	
+}
+
+h1,h2,h3,h4 {
+	font-family :  DroidSerifRegular, georgia, times, serif;
+	color: #666666;
+}
+
+p {
+	font-size: 90%;
+	color:#333333;
+	line-height:1.3em;
+}
+
+#navigation {
+	border-top:1px solid #d6d6d6;
+	border-bottom:1px solid #d6d6d6;
+	padding:10px 0px 10px 0px;
+	margin:20px 0px 20px 0px;
+}
+
+#navigation a {
+	color:#3399cc;
+	text-decoration: none;
+	
+}
+
+#page {
+	width: 960px;
+	border:10px solid #3399cc;
+	padding:40px;
+	margin:20px;
+	
+}
+

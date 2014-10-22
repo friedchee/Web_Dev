@@ -1,0 +1,46 @@
+body {
+  background-image: url("images/xploder.gif");
+  background-attachment: fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #eaeaea; 
+}
+
+
+
+
+
+nav {
+	margin: 10px  10px 0px  10px;
+	
+}
+
+nav ul  {
+	margin: -12.5px;
+	list-style-type:  none;
+	padding: 5px 10px 5px 10px;
+	
+}
+
+nav ul li {
+	display: inline;
+	padding: 10px 10px 5px 10px;
+	
+}
+
+
+
+
+h1 {
+	
+	
+}
+
+footer {
+	
+		
+}
+
+#menu {
+  width:400px;
+}

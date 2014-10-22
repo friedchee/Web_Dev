@@ -1,0 +1,413 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* 
+{
+margin: 0px;
+padding: 0px;
+}
+
+body {
+	background: #ffffff url(images/logo.jpg) 0px 55px repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+input, textarea {
+	background: #A4E4F5;
+	border: 1px solid #FFFFFF;
+	font: bold 13px Arial, Helvetica, sans-serif;
+	color: #0F5B96;
+}
+
+h1, h2, h3, p, ol, ul {
+	margin-top: 0;
+}
+
+h1, h2, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.4em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+
+a {
+	color: #1D74A6;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #1D74A6;
+}
+
+
+
+hr {
+	display: none;
+}
+
+#main
+{
+width: 980px;
+margin: 0 auto;
+}
+
+
+/* Header */
+
+#header {
+	width: 980px;
+
+}
+
+#logo {
+width: 980px;
+height: 128px;
+background: url(images/header.jpg) no-repeat;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	line-height: normal;
+}
+
+#logo h1 {
+	padding: 30px 0 0 20px;
+	font-size: 24px;
+	color: #000000;
+}
+#logo h2 {
+	padding: 10px 0 0 20px;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#menu {
+height: 41px;
+background: url(images/menu.gif) repeat-x;
+width: 682px;
+padding-top: 19px;
+text-align:right;
+padding-left: 298px;
+}
+
+#b1 {
+	background:url(images/b11.jpg) no-repeat;
+}
+
+#b2 {
+	background:url(images/b22.jpg) no-repeat;
+}
+
+#b3 {
+	background:url(images/b33.jpg) no-repeat;
+}
+
+#b4 {
+	background:url(images/b44.jpg) no-repeat;
+}
+
+#b5 {
+	background:url(images/b55.jpg) no-repeat;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+	
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	float: left;
+	width: 135px;
+	height: 26px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+
+}
+
+#menu a:hover {
+	height: 31px;
+	margin-top:-5px;
+}
+
+/* Page */
+
+#page {
+	margin: 0 auto;
+	background: url(images/cent_m.jpg) repeat-y;
+}
+
+.page2 {
+	background: url(images/top_m.gif) top no-repeat;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 539px;
+}
+
+
+#content .post ul, #content .post ol
+{
+margin-left: 30px;
+}
+
+#content .top
+{
+width: 497px;
+background: url(images/top.png) no-repeat;
+height: 13px;
+}
+
+#content .middle_back
+{
+width: 499px;
+padding: 10px 20px 20px 20px;
+}
+
+#content .title
+{
+background: url(images/tit_b.jpg) top no-repeat;
+height: 28px;
+padding-top: 10px;
+padding-left: 30px;
+}
+
+#content .date 
+{
+	height: 31px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-top: 3px;
+	font-size: 10px;	
+}
+
+#content .date ul
+{
+	list-style: none;	
+}
+
+#content .date li
+{
+	display: inline; 
+}
+
+#content .small_icon1
+{
+height: 24px;
+width: 150px;
+float: left;
+display: block;
+text-align: left;
+padding-top: 6px;
+padding-left: 30px;
+}
+
+#content .small_icon2
+{
+height: 24px;
+width: 120px;
+float: left;
+display: block;
+text-align: left;
+padding-top: 6px;
+padding-left: 30px;
+}
+
+#content .small_icon3
+{
+height: 24px;
+width: 100px;
+float: left;
+display: block;
+text-align: left;
+padding-top: 6px;
+padding-left: 30px;
+}
+
+.post {
+	padding: 13px 0px 0px 0px;
+	color: #000000;
+}
+
+.post a {
+	color: #034791;
+}
+
+.post a:hover {
+	color: #034791;
+}
+
+.post H2
+{
+color: #ffffff;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: bold
+}
+
+/* Sidebars */
+
+.sidebar {
+	float: left;
+	width: 219px;
+
+}
+
+.sidebar2 {
+	padding: 13px 7px 0px 11px;
+
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+
+.sidebar li {
+	padding: 4px 0 4px 10px;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: #034791;
+	font-size: 11px;
+}
+.sidebar a:hover {
+	color: #0A6894;
+	text-decoration: underline;
+}
+
+.sidebar h2 {
+	padding-top: 10px;
+	color: #ffffff;
+	background: url(images/tit_s.jpg) no-repeat;
+	height: 26px;
+	padding-left: 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.bottom_small
+{
+height: 2px;
+background: url(images/small_bottom.gif) no-repeat;
+width: 183px;
+}
+
+
+/* Left Sidebar */
+
+.sidebar3 {
+	padding: 13px 0px 0px 8px;
+}
+
+/* Right Sidebar */
+
+#leftbar .back, #rightbar .back
+{
+padding: 10px;
+}
+
+
+/* Calendar */
+
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar thead {
+
+}
+
+#calendar tbody td {
+	border: 1px solid #F1F1F1;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #now {
+	background: #696969;
+	border: 1px solid #ff0000;
+	font-weight: bold;
+	color: #ffffff
+}
+
+#bot_tb { 
+	background:url(images/bot_m.jpg) bottom no-repeat;
+	height: 17px;
+}
+/* Footer */
+
+#footer {
+	clear: both;
+	padding-top: 10px;
+	height: 32px;
+	background: url(images/futer.jpg) bottom repeat-x;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#footer p {
+	text-align: center;
+	font-size: smaller;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+#bg {
+	background: url(images/futer.jpg) bottom repeat-x;
+}
+
+
